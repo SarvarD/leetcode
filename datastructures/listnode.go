@@ -40,7 +40,7 @@ func (l1 *ListNode) ToString() string {
 		sb.WriteString(strconv.Itoa(head.Val))
 		sb.WriteString(" ")
 		if head.Next != nil {
-			sb.WriteString(" -> ")
+			sb.WriteString("-> ")
 		}
 		head = head.Next
 	}
